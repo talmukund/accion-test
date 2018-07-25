@@ -1,0 +1,13 @@
+import { bindActionCreators } from "redux";
+import { connect } from "react-redux";
+import CreateForm from "../component/CreateForm";
+import * as Actions from "../action";
+
+const mapStateToProps = state => ({});
+
+const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(CreateForm);

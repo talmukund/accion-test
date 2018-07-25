@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <button
+    onClick={[Function]}
+  >
+    Move to create post
+  </button>
+  <p
+    className="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+  <table>
+    <tr>
+      <th>
+        userid
+      </th>
+      <th>
+        id
+      </th>
+      <th>
+        title
+      </th>
+      <th>
+        body
+      </th>
+    </tr>
+  </table>
+</div>
+`;
